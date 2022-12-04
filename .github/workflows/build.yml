@@ -51,7 +51,7 @@ jobs:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
         uses: pullreminders/slack-action@master
         with:
-          args: '{\"channel\":\"C04DNB4G7QS\",\"text\":\"Jobs Done!\"}' 
+          args: '{\"channel\":\"C04DNB4G7QS\",\"text\":\"Has been successfully deployed!\"}' 
 
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
